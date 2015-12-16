@@ -1,6 +1,6 @@
-#include <windows.h>
+ #include <windows.h>
 
-#define WM_INIT		(WM_USER+1000)
+ #define WM_INIT		(WM_USER+1000)
 
 HWND Przycisk1;
 
@@ -72,9 +72,6 @@ LRESULT CALLBACK wnd_proc(HWND hwnd, UINT message, WPARAM wp, LPARAM lp)
     case VK_ESCAPE:
         DestroyWindow( hwnd );
         break;
-		}
-		}
-		break;
 
 	case WM_PAINT:
 		{
