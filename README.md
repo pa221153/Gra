@@ -23,7 +23,7 @@
 		DeleteObject(hpen);
 		DeleteObject(hbrush);
 	}
-	
+	 
 	LRESULT CALLBACK wnd_proc(HWND hwnd, UINT message, WPARAM wp, LPARAM lp) 
 	{
 		switch(message) 
